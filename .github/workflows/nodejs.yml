@@ -5,9 +5,9 @@ name: Syntax checker and build
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -24,6 +24,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: yarn install
-    - run: yarn lint
-    - run: yarn build
+    - run: npm install
+    - run: npm lint
+    - run: npm build
