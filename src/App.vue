@@ -7,7 +7,7 @@
     <div class="row align-items-center">
       <div class="col-md-12 text-center">
         <div class="logotop">
-          <img src="./assets/codeliciousColor.png">
+          <img src="~src//assets/codeliciousColor.png">
         </div>
         <h3>{{ $config.website_name }} Status Page</h3>
       </div>
