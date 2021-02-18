@@ -25,8 +25,6 @@ npm run build
 npm run build --report
 ```
 
-`Cloned from [here](https://github.com/nya1/updown-status-page), then stripped down to only what I needed.`
-
 ## Deploy To GitHub Pages
 
 1. Main branch, run the terminal command: `npm run build`
