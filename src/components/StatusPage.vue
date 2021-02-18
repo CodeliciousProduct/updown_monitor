@@ -132,7 +132,7 @@ export default {
   padding: 10% 2%;
 }
 .up {
-  background-color: #17b96e;
+  background-color: #71B095;
 }
 .box {
   padding: 5px;
@@ -144,7 +144,7 @@ export default {
   vertical-align: text-top;
 }
 .dw {
-  background-color: #ff0a0a;
+  background-color: #D37271;
 }
 h5 {
   font-size: 1.15em;
@@ -162,6 +162,7 @@ h6 {
 }
 .morelink {
   font-size: 0.75em;
+  color: #0596A8;
 }
 .main {
   font-size: 1.4em;

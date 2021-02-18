@@ -50,6 +50,10 @@ export default {
 </script>
 
 <style>
+a {
+  text-decoration: none;
+  color: inherit;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -57,6 +61,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#link {
+  color: #0596A8
+}
+body {
+  background-color: #efefef
 }
 .logotop {
   max-height: 80px;
