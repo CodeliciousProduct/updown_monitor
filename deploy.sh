@@ -5,10 +5,9 @@ set -e
 npm run build
 # navigate into the build output directory
 cd dist
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
+# git commands
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:CodeliciousProduct/updown-monitor.git main:gh-pages
+git push -f git@github.com:CodeliciousProduct/updown-monitor.git main:main
 cd -
